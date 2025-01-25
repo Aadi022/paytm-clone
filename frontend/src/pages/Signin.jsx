@@ -35,6 +35,7 @@ export const Signin = () => {
             label={"Email"}
           />
           <InputBox
+            type="password"
             onChange={(e) => {
               setPassword(e.target.value);
             }}
